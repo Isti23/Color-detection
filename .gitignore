@@ -1,0 +1,17 @@
+# Dataset gambar
+dataset/
+
+# Environment Python
+venv/
+.venv/
+__pycache__/
+
+# File sistem
+.DS_Store
+
+# File sementara
+*.pyc
+.ipynb_checkpoints/
+
+# File model besar, jika tidak ingin diunggah
+# models/
