@@ -1,17 +1,14 @@
-# Dataset gambar
+# Dataset
 dataset/
 
-# Environment Python
-venv/
-.venv/
-__pycache__/
-
-# File sistem
+# macOS
 .DS_Store
 
-# File sementara
-*.pyc
-.ipynb_checkpoints/
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
 
-# File model besar, jika tidak ingin diunggah
-# models/
+# Jupyter
+.ipynb_checkpoints/
