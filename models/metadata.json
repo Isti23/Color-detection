@@ -1,0 +1,43 @@
+{
+    "model_name": "SVM Color Classifier",
+    "model_type": "Support Vector Machine",
+    "model_file": "svm_color_model.joblib",
+    "classes": [
+        "black",
+        "blue",
+        "brown",
+        "green",
+        "grey",
+        "orange",
+        "pink",
+        "purple",
+        "red",
+        "white",
+        "yellow"
+    ],
+    "feature_extraction": {
+        "method": "K-Means",
+        "n_clusters": 3,
+        "features_per_image": 9,
+        "color_space": "RGB",
+        "channel_order": [
+            "R",
+            "G",
+            "B"
+        ]
+    },
+    "scaler": "MinMaxScaler",
+    "best_parameters": {
+        "C": 10,
+        "kernel": "poly",
+        "degree": 3,
+        "gamma": "scale",
+        "coef0": 1
+    },
+    "evaluation": {
+        "accuracy": 0.8138,
+        "precision_macro": 0.8173,
+        "recall_macro": 0.8143,
+        "f1_macro": 0.8132
+    }
+}
